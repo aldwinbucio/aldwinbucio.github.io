@@ -1,64 +1,143 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
+
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aldwin James Bucio</title>
+    <title>Aldwin James Bucio Portfolio</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./tailwind.config.js"></script>
+    
     <style>
         body {
-         
- 
-            background-color: #312323;
-            color: #abb2bf;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-       
-        .image-section {
-            margin-bottom: 20px;
-        }
-        .image-section img {
-            border-radius: 100%;
-            width: 200px;
-        }
-        .text-section h1, .text-section h2 {
-            color: #b4195a;
-        }
-        .text-section p {
-            color: #cccccc;
-        }
-        .link {
-            color: #f1f1f1;
-            font-weight: bold;
-        }
-       
+
+            background-color: #36112a;
+            color: #5e697e;
+            
     </style>
+
 </head>
 <body>
-    <div class="container">
-        <div class="image-section">
-            <img src="https://github.com/aldwinbucio/aldwinbucio.github.io/blob/main/imagee.jpg?raw=true" alt="image">
-  <hr>
-        </div>
-        <div class="text-section">
+    
+
+    <nav class="w-full fixed px-10 lg:px-8 lg:px[8%] py-4 flex items-center justify-center z-50">
+    
+    <ul class="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-blue-900 shadow-sm bg-opacity-50 border">
+          <li><a href="#top">Home</a></li>
+          <li><a href="#about">About me</a></li>
+          <li><a href="#talents">Talents</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#favorites">Favorites</a></li>
+          <li><a href="#reference">Reference</a></li>
+    
+        
+        </ul>
           
-            <h1>Aldwin James G. Bucio</h1>
-            <h2>About Me:</h2>
-            <p>I'm a Second Year BSIT Student and I like coding</p>
-            <h2>Favorites:</h2>
-            <p>Coding, Games, Pets</p>
-            <h2>School Projects:</h2>
-            <p>Created a Kiosk System for our final project</p>
-            <h2>Talents:</h2>
-            <p>None.</p>
-            <h2>External links:</h2>
-            <p><a href="https://www.facebook.com/aldwin.james.754?mibextid=ZbWKwL/" class="link">Facebook</a></p>
-            <p><a href="https://github.com/aldwinbucio" class="link">GitHub</a></p>
+    </nav> 
+
+    <div class="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
+        <img src="https://github.com/aldwinbucio/aldwinbucio.github.io/blob/main/imagee.jpg?raw=true" alt="" class="rounded-full w-32">
+        <h3 class="text-xl md:text-2xl mb-3">Hi my name is Aldwin James G. Bucio Im a Second Year BSIT Student</h3>
+        <a class="blog text-blue-900" href="/fashionn.html">Link To My Fashion Blog</a>
+       
+       
+    </div>
+
+
+<!----about me-->
+<div id="about" class="w-8/12 max-w-3xl  mx-auto h-screen flex flex-col items-center justify-center ">
+    
+    <h2 class="text-center text-5xl">About Me</h2>
+
+    <div class="flex w-full flex-col lg:flex-row items-center gap-20 my-20  b">
+        <div class="max-w-max mx-auto relative">
+            <img src="https://github.com/aldwinbucio/aldwinbucio.github.io/blob/main/user.jpg?raw=true" alt="" class="w-64 sm:w-80 rounded-3xl
+             max-w-none">
+        </div>
+        <div class="flex-1">
+            <p class="mb-10 max-w-2xl ">Hi My name is Aldwin James G. Bucio I'm a Second Year BSIT student studying at  University of the Immaculate Conception I like hanging out with friends and also like walking my pet dog</p>
+            
+
+          
+            <h4 class="my-6  text-blue-900">Social Medias</h4>
+            <ul class="flex items-center gap-3 sm:gap-5">
+                <a href="https://www.facebook.com/aldwin.james.754?mibextid=ZbWKwL/" class="link"> <img src="https://github.com/aldwinbucio/aldwinbucio.github.io/blob/main/facebook.png?raw=true" alt="" class="flex items-center justify-center w-7 sm:w-8 aspect-square border border-blue-950 rounded-lg cursor-pointer""></a>
+                
+                <a href="https://github.com/aldwinbucio" class="link"> <img src="https://github.com/aldwinbucio/aldwinbucio.github.io/blob/main/GitHub-logo.png?raw=true" alt="" class="flex items-center justify-center w-7 sm:w-8 aspect-square border border-blue-950 rounded-lg cursor-pointer""></a>
+                
+           
+                
+            </ul>
+
         </div>
     </div>
+</div>
+
+
+<!----TALENTS-->
+<div id="talents" class="w-8/12 max-w-3xl  mx-auto h-screen flex flex-col items-center justify-center ">
+    <h2 class="text-center text-5xl">Talents</h2>
+
+    <div class="flex w-full flex-col lg:flex-row items-center gap-20 my-20 ">
+   <div  class="max-w-max mx-auto relative">
+     <img src="https://github.com/aldwinbucio/aldwinbucio.github.io/blob/main/drum.jpg?raw=true" alt="" class="w-64 sm:w-80 rounded-3xl
+             max-w-none">
+            </div>
+            <div class="flex-1">
+    <p class==mb-10 max-w-2x1>All I know is to play drums</p>
+</div>
+</div>
+</div>
+
+<!----project-->
+<div id="projects" class="w-8/12 max-w-3xl  mx-auto h-screen flex flex-col items-center justify-center ">
+    <h2 class="text-center text-5xl">Project</h2>
+
+    <div class="flex w-full flex-col lg:flex-row items-center gap-20 my-20 ">
+   <div  class="max-w-max mx-auto relative">
+     <img src="https://github.com/aldwinbucio/aldwinbucio.github.io/blob/main/kiosk.jpg?raw=true" alt="" class="w-64 sm:w-80 rounded-3xl
+             max-w-none">
+            </div>
+            <div class="flex-1">
+    <p class==mb-10 max-w-2x1>Constructed a Kiosk system for our final programming assignment thus far, this has been our only project.</p>
+</div>
+</div>
+</div>
+
+
+<!----favorites-->
+<div id="favorites" class="w-8/12 max-w-3xl  mx-auto h-screen flex flex-col items-center justify-center  ">
+    <h2 class="text-center text-5xl">Favorites</h2>
+
+    <div class="flex w-full flex-col lg:flex-row items-center gap-20 my-20 ">
+   <div  class="max-w-max mx-auto relative">
+     <img src="https://github.com/aldwinbucio/aldwinbucio.github.io/blob/main/picc.jpg?raw=true" alt="" class="w-64 sm:w-80 rounded-3xl
+             max-w-none">
+            </div>
+            <div class="flex-1">
+    <p class==mb-10 max-w-2x1>One of my favorite things to do is spend time with friends and try out new activities that bring a lot of fun and excitement. Whether it's playing a game, going on an adventure, or just hanging out and sharing laughs, I love the energy and spontaneity that comes with these moments. I really enjoy finding new hobbies or exploring cool places around town. It’s all about having a good time, making memories, and just enjoying life’s little pleasures with the people I care about.</p>
+</div>
+</div>
+</div>
+
+<!----reference-->
+<div id="reference" class="w-8/12 max-w-3xl  mx-auto h-screen flex flex-col items-center justify-center  ">
+    <h2 class="text-center text-5xl">Reference</h2>
+
+    <div class="flex w-full flex-col lg:flex-row items-center gap-20 my-20 ">
+   <div  class="max-w-max mx-auto relative">
+    <ul class="flex items-center gap-3 sm:gap-5">
+                <a href="https://www.youtube.com/watch?v=zJOj4ZC_Yrw&list=LL&index=1&t=4624s&ab_channel=GreatStack" class="link"> <img src="https://github.com/aldwinbucio/aldwinbucio.github.io/blob/main/ytube.jpg?raw=true" alt="" class="flex items-center justify-center w-17 sm:w-32 aspect-square border border-blue-950 rounded-lg cursor-pointer""></a>
+                
+           
+   
+</div>
+</div>
+</div>
+
+
+
+
 </body>
 </html>
