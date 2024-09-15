@@ -19,6 +19,10 @@ justify-content: center;
 gap: 1%;
 height: 100vh;
 gap: 1rem ;
+font-family: "Playpen Sans", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 .first{
@@ -37,6 +41,10 @@ gap: 1rem ;
     justify-content: center;
     gap: 1rem;
     color: aliceblue;
+    font-family: "Playpen Sans", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 
 
 }
@@ -56,6 +64,10 @@ justify-content: center;
 gap: 1%;
 height: 100vh;
 gap: 1rem;
+font-family: "Playpen Sans", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 
 }
 
@@ -74,6 +86,10 @@ justify-content: center;
 gap: 1%;
 height: 100vh;
 gap: 1rem ;
+font-family: "Playpen Sans", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 
@@ -92,6 +108,10 @@ justify-content: center;
 gap: 1%;
 height: 100vh;
 gap: 1rem /* 16px */;
+font-family: "Playpen Sans", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 #reference{
@@ -109,6 +129,10 @@ justify-content: center;
 gap: 1%;
 height: 100vh;
 gap: 1rem;
+font-family: "Playpen Sans", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 .aldwin{
