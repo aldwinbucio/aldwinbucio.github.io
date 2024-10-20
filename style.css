@@ -1,35 +1,77 @@
-body {
-
-    background-color: #36112a;
-    color: #5e697e;
+:root {
+    --background-color-light: #631212;
+    --background-color-dark: #1b1b1b; 
+    --text-color-light: #5e697e;
+    --text-color-dark: #ffffff; 
+    
+    --about-bg: rgb(31, 59, 83);
+    --about-text: rgb(252, 252, 252);
+    
+    --first-bg: rgb(23, 22, 56);
+    --first-text: rgb(238, 247, 255);
+    
+    --talents-bg: rgb(4, 25, 44);
+    --talents-text: rgb(252, 252, 252);
+    
+    --projects-bg: rgb(61, 9, 46);
+    --projects-text: rgb(252, 252, 252);
+    
+    --favorites-bg: rgb(87, 10, 70);
+    --favorites-text: rgb(252, 252, 252);
+    
+    --reference-bg: rgb(73, 24, 5);
+    --reference-text: rgb(255, 255, 255);
 }
 
-#about{
+.darkmode{
+    --background-color-light: #020101;
+    --background-color-dark: #270202; 
+    --text-color-light: #040c1b;
+    --text-color-dark: #ffffff; 
+    --about-bg: rgb(0, 0, 0);
+    --about-text: rgb(252, 252, 252);
+    --first-bg: rgb(0, 0, 0);
+    --first-text: rgb(238, 247, 255);
+    --talents-bg: rgb(0, 0, 0);
+    --talents-text: rgb(252, 252, 252);
+    --projects-bg: rgb(0, 0, 0);
+    --projects-text: rgb(252, 252, 252);
+    --favorites-bg: rgb(0, 0, 0);
+    --favorites-text: rgb(252, 252, 252);
+    --reference-bg: rgb(0, 0, 0);
+    --reference-text: rgb(255, 255, 255);
+}
+
+body {
+    background-color: var(--background-color-light);
+    color: var(--text-color-light);
+}
+
+#about {
     position: relative;
     width: 65%;
-background-color: rgb(7, 52, 92);
-color: rgb(252, 252, 252);
-max-width: 48rem;
-margin-left: auto;
-margin-right: auto;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-gap: 1%;
-height: 100vh;
-gap: 1rem ;
-font-family: "Playpen Sans", cursive;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+    background-color: var(--about-bg);
+    color: var(--about-text);
+    max-width: 48rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+    height: 100vh;
+    gap: 1rem;
+    font-family: "Playpen Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
-.first{
+.first {
     position: relative;
     width: 50%;
-    background-color: rgb(52, 82, 109);
-    width: 91.666667%;
+    background-color: var(--first-bg);
     max-width: 48rem;
     text-align: center;
     margin-left: auto;
@@ -40,108 +82,158 @@ font-family: "Playpen Sans", cursive;
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    color: aliceblue;
+    color: var(--first-text);
     font-family: "Playpen Sans", cursive;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-
-
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
-#talents{
-position: relative;
-width: 65%;
-background-color: rgb(4, 25, 44);
-color: rgb(252, 252, 252);
-max-width: 48rem;
-margin-left: auto;
-margin-right: auto;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-gap: 1%;
-height: 100vh;
-gap: 1rem;
-font-family: "Playpen Sans", cursive;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-
+#talents {
+    position: relative;
+    width: 65%;
+    background-color: var(--talents-bg);
+    color: var(--talents-text);
+    max-width: 48rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+    height: 100vh;
+    gap: 1rem;
+    font-family: "Playpen Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
-#projects{
-position: relative;
-width: 65%;
-background-color: rgb(61, 9, 46);
-color: rgb(252, 252, 252);
-max-width: 48rem /* 768px */;
-margin-left: auto;
-margin-right: auto;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-gap: 1%;
-height: 100vh;
-gap: 1rem ;
-font-family: "Playpen Sans", cursive;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+#projects {
+    position: relative;
+    width: 65%;
+    background-color: var(--projects-bg);
+    color: var(--projects-text);
+    max-width: 48rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+    height: 100vh;
+    gap: 1rem;
+    font-family: "Playpen Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
-
-#favorites{
-position: relative;
-width: 65%;
-background-color: rgb(87, 10, 70);
-color: rgb(252, 252, 252);
-max-width: 48rem /* 768px */;
-margin-left: auto;
-margin-right: auto;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-gap: 1%;
-height: 100vh;
-gap: 1rem /* 16px */;
-font-family: "Playpen Sans", cursive;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+#favorites {
+    position: relative;
+    width: 65%;
+    background-color: var(--favorites-bg);
+    color: var(--favorites-text);
+    max-width: 48rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+    height: 100vh;
+    gap: 1rem;
+    font-family: "Playpen Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
-#reference{
-position: relative;
-width: 65%;
-background-color: rgb(73, 24, 5);
-color: rgb(255, 255, 255);
-max-width: 48rem /* 768px */;
-margin-left: auto;
-margin-right: auto;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-gap: 1%;
-height: 100vh;
-gap: 1rem;
-font-family: "Playpen Sans", cursive;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+#reference {
+    position: relative;
+    width: 65%;
+    background-color: var(--reference-bg);
+    color: var(--reference-text);
+    max-width: 48rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+    height: 100vh;
+    gap: 1rem;
+    font-family: "Playpen Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
-.aldwin{
+.aldwin {
     width: 16rem;
-    border-radius: 1.5rem ;
+    border-radius: 1.5rem;
     max-width: none;
     --tw-bg-opacity: 1;
     background-color: rgb(252 244 255 / var(--tw-bg-opacity));
 }
 
+@media (max-width: 768px) {
+    #about, #talents, #projects, #favorites, #reference {
+        width: 80%;
+    }
+
+    .first {
+        width: 80%;
+    }
+
+    .aldwin {
+        width: 12rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #about, #talents, #projects, #favorites, #reference {
+        width: 90%;
+    }
+
+    .first {
+        width: 90%;
+    }
+
+    .aldwin {
+        width: 10rem;
+    }
+}
+
+
+#theme-switch{
+    height: 50px;
+    width: 60px;
+    padding: 5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 20px;
+    right: 20px;
+
+}
+
+#theme-switch svg:last-child{
+ display:none;
+
+}
+
+.darkmode #theme-switch svg:first-child{
+    display: none;
+}
+
+.darkmode #theme-switch svg:last-child{
+    display: block;
+}
 
 
