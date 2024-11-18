@@ -1,158 +1,163 @@
-<!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
 <head>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
-
-
-
-
-    
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aldwin James Bucio Portfolio</title>
-    
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="./tailwind.config.js"></script>
-    
-  
-<link rel="stylesheet" href="style.css">
-<script type="text/javascript" src="darkmode.js" defer></script>
+    <title>Portfolio</title>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
+
+
+
+
+
+
+
+
+
+    
 </head>
 <body>
- 
 
-    <nav class="w-full fixed px-10 lg:px-8 lg:px[8%] py-4 flex items-center justify-center z-50">
-    
-    <ul class="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-blue-900 shadow-sm bg-opacity-50 border">
-          <li><a href="#top">Home</a></li>
-          <li><a href="#about">About me</a></li>
-          <li><a href="#talents">Talents</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#favorites">Favorites</a></li>
-          <li><a href="#reference">Reference</a></li>
-    
+    <header>
+        <div class="user">
+            <img src="https://github.com/aldwinbucio/aldwinbucio.github.io/blob/main/user.jpg?raw=true" alt="">
+            <h3 class="name">Aldwin James G. Bucio</h3>
+            <p class="post">2nd Year Information Technology Student</p>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contacts</a></li>
+            </ul>
 
+        </nav>
 
-        </ul>
-        <button id="theme-switch">
-            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z"/></svg>
-            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M480-280q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Z"/></svg>
-          </button>
-
-       
-       
-    </nav> 
-    
-    <div class="first">
-        <img src="https://github.com/aldwinbucio/aldwinbucio.github.io/blob/main/imagee.jpg?raw=true" alt="" class="rounded-full w-60 hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500">
-        <h1 class="text-xl md:text-2xl mb-3">Hi my name is Aldwin James G. Bucio Im a Second Year BSIT Student</h1>
-        <ul>
-        <a class="blog text-blue-400" href="/fashionn.html" target="blank">Link To My Fashion Blog,</a>
-        <a class="blog text-blue-400" href="/recipes.html" target="blank">Healty Recipes</a>
-    
-    </ul>
 
         
-    </div>
+    </header>
 
+    <div id="menu" class="fas fa-bars"></div>
 
-<!----about me-->
-<div id="about">
-    
-    <h2 class="text-center text-5xl">About Me</h2>
+    <section class="home" id="home">
+        <h3> Hi There!</h3>
+        <h1>I'm <span class="typing"></span></h1>
+        <p>Welcome to my portfolio!</p>
+        <li>
+            <a href="fashionn.html" class="btn">Fashion </a>
 
-    <div class="flex w-full flex-col lg:flex-row items-center gap-20 my-20  b">
-        <div class=" hover:bg-[#000000] hover:-translate-y-1 duration-500">
-            <img src="https://github.com/aldwinbucio/aldwinbucio.github.io/blob/main/user.jpg?raw=true" alt="" class="aldwin">
+            <a href="#projects"><button class="btn">My Projects<i class="fas fa-folder-open"></i></button></a>
+        </li>
+    </section>
+
+   <!----about starts-->
+   <section class="about" id="about">
+        <h1 class="heading"><span> About </span>Me</h1>
+        <div class="row">
+            <div class="info">
+                <h3><span>Name:</span>Aldwin James G. Bucio</h3>
+                <h3><span>Age:</span>19</h3>
+                <h3><span>Talents : </span>Drumming, Editing</h3>
+                <h3><span>Favorites : </span>Dog, Food, Games, Gym</h3>
+                <a href="#"><button class="btn">Download CV<i class="fas fa-download"></i></button></a>
+            </div>
+
+            <div class="counter">
+                <div class="box">
+                    <span>2+ </span>
+                    <h3>years coding experience</h3>
+                </div>
+
+                <div class="box">
+                    <span>3 </span>
+                    <h3>projects completed so far</h3>
+                </div>
+            </div>
         </div>
-        <div class="">
-            <p class="hi">Hi My name is Aldwin James G. Bucio I'm a Second Year BSIT student studying at  University of the Immaculate Conception I like hanging out with friends and also like walking my pet dog</p>
-            
+   </section>
+   <!----about ends-->
 
-          
-            <h4 class="my-6  text-blue-900">Social Medias</h4>
-            <ul class="flex items-center gap-3 sm:gap-5">
-                <a href="https://www.facebook.com/aldwin.james.754?mibextid=ZbWKwL/" target="blank"> <img src="https://github.com/aldwinbucio/aldwinbucio.github.io/blob/main/facebook.png?raw=true" alt="" class="flex items-center justify-center w-7 sm:w-8 aspect-square  cursor-pointer""></a>
-                
-                <a href="https://github.com/aldwinbucio" target="blank"> <img src="https://github.com/aldwinbucio/aldwinbucio.github.io/blob/main/GitHub-logo.png?raw=true" alt="" class="flex items-center justify-center w-7 sm:w-8 aspect-square cursor-pointer""></a>
-                 
-             
-                
-            </ul>  
-            
+   <!----education starts -->
+   <section class="education" id="education">
+        <h1 class="heading">My<span> Education </span></h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2017</span>
+                <h3>front end developer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ducimus ullam quo pariatur sapiente alias, ea quasi aut! Obcaecati aut tempore reiciendis officia tempora labore earum exercitationem sequi maiores eligendi.</p>
+            </div>
 
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2021</span>
+                <h3>front end developer</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate ex ducimus eligendi eius quos tenetur, velit ut totam necessitatibus assumenda hic, modi asperiores. Nemo quis laudantium voluptas illo, cum delectus.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2023</span>
+                <h3>front end developer</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae molestiae harum blanditiis odio, fugiat nisi libero quaerat, hic quod facilis, natus quos corrupti quisquam ullam officiis repellendus sit quae minus.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2024</span>
+                <h3>front end developer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate alias saepe nulla! Veritatis hic eligendi expedita temporibus reprehenderit fugiat inventore facilis beatae, blanditiis, itaque repudiandae sunt. Velit sed illo quasi.</p>
+            </div>
         </div>
-    </div>
-</div>
+   </section>
+   <!----education ends -->
 
 
-<!----TALENTS-->
-<div id="talents">
-    <h2 class="text-center text-5xl">Talents</h2>
 
-    <div class="flex w-full flex-col lg:flex-row items-center gap-20 my-20 ">
-   <div  class="max-w-max mx-auto relative hover:bg-[#000000] hover:-translate-y-1 duration-500">
-     <img src="https://github.com/aldwinbucio/aldwinbucio.github.io/blob/main/drum.jpg?raw=true" alt="" class="w-64 sm:w-80 rounded-3xl
-             max-w-none">
+
+   <!----projects starts -->
+< <section class="projects" id="projects">
+        <h1 class="heading">My <span>Projects</span></h1>
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img src="https://raw.githubusercontent.com/aldwinbucio/aldwinbucio.github.io/main/kiosk.jpg" alt="Project 1">
             </div>
-            <div class="flex-1">
-    <p class==mb-10 max-w-2x1>Playing Drums</p>
-</div>
-</div>
-</div>
-
-<!----project-->
-<div id="projects">
-    <h2 class="text-center text-5xl">Project</h2>
-
-    <div class="flex w-full flex-col lg:flex-row items-center gap-20 my-20 ">
-   <div  class="max-w-max mx-auto relative hover:bg-[#000000] hover:-translate-y-1 duration-500">
-     <img src="https://github.com/aldwinbucio/aldwinbucio.github.io/blob/main/kiosk.jpg?raw=true" alt="" class="w-64 sm:w-80 rounded-3xl
-             max-w-none">
+            <div class="carousel-slide">
+                <img src="https://raw.githubusercontent.com/aldwinbucio/aldwinbucio.github.io/main/register.png" alt="Project 2">
             </div>
-            <div class="flex-1">
-    <p class==mb-10 max-w-2x1>Constructed a Kiosk system for our final programming assignment thus far, this has been our only project.</p>
-</div>
-</div>
-</div>
+        </div>
+    </section>
+   <!----projects ends -->
 
-
-<!----favorites----->
-<div id="favorites">
-    <h2 class="text-center text-5xl">Favorites</h2>
-
-    <div class="flex w-full flex-col lg:flex-row items-center gap-20 my-20 ">
-   <div  class="max-w-max mx-auto relative hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500">
-     <img src="https://github.com/aldwinbucio/aldwinbucio.github.io/blob/main/picc.jpg?raw=true" alt="" class="w-64 sm:w-80 rounded-3xl
-             max-w-none">
+   <!----contacts starts -->
+   <section class="contact" id="contact">
+        <h1 class="heading">Contact<span> Me </span></h1>
+        <div class="row">
+            <div class="content">
+                <h3 class="title">Contact Info</h3>
+                <div class="info">
+                    <h3><i class="fas fa-envelope"></i> aldwin@gmail.com</h3>
+                    <h3><i class="fas fa-phone"></i> 09123456789</h3>
+                    <h3><i class="fas fa-map-marker-alt"></i> Davao City</h3>
+                </div>
             </div>
-            <div class="flex-1">
-    <p class==mb-10 max-w-2x1>One of my favorite things to do is spend time with friends and try out new activities that bring a lot of fun and excitement. Whether it's playing a game, going on an adventure, or just hanging out and sharing laughs, I love the energy and spontaneity that comes with these moments. I really enjoy finding new hobbies or exploring cool places around town. It’s all about having a good time, making memories, and just enjoying life’s little pleasures with the people I care about.</p>
-</div>
-</div>
-</div>
+            <form action="">
+                <input type="text" placeholder="name" class="box">
+                <input type="email" placeholder="email" class="box">
+                <input type="text" placeholder="phone" class="box">
+                <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+                <button type="submit" class="btn">send<i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+   </section>
+   <!----contacts ends -->
 
-<!----reference-->
-<div id="reference">
-    <h2 class="text-center text-5xl">Reference</h2>
-
-    <div class="flex w-full flex-col lg:flex-row items-center gap-20 my-20 ">
-   <div  class="max-w-max mx-auto relative">
-    <ul class="flex items-center gap-3 sm:gap-5 hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500">
-                <a href="https://www.youtube.com/watch?v=zJOj4ZC_Yrw&list=LL&index=1&t=4624s&ab_channel=GreatStack" target="blank"> <img src="https://github.com/aldwinbucio/aldwinbucio.github.io/blob/main/ytube.jpg?raw=true" alt="" class="flex items-center justify-center w-17 sm:w-32 aspect-square border border-blue-950 rounded-lg cursor-pointer""></a>
-                
-           
-   
-</div>
-</div>
-</div>
-
-
-
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
