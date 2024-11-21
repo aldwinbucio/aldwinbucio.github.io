@@ -365,6 +365,75 @@ header .navbar ul li a:hover{
 .projects .box-container .box:hover img{
     transform: scale(1.2);
 }
+
+#searchBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+#searchBar input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+#searchBar button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#searchBar button:hover {
+    background-color: #ff704d;
+}
+
+#movie {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #9e1c1c;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+#movie h2 {
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+#movie img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+#movieDetails {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
 .contact .row{
     display: flex;
     align-items: center;
@@ -479,9 +548,6 @@ header .navbar ul li a:hover{
     transform: translateY(-15px);
 
 }
-
-
-
 
 
 
